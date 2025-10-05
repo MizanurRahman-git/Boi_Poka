@@ -8,6 +8,8 @@ const Navbar = () => {
         3 rounded-sm font-medium hover:text-white hover:bg-black'>Home</li></Link>
         <Link to="/about"><li className='m-2 cursor-pointer bg-amber-100 py-1 px-2
         3 rounded-sm font-medium hover:text-white hover:bg-black'>About</li></Link>
+        <Link to="/readList"><li className='m-2 cursor-pointer bg-amber-100 py-1 px-2
+        3 rounded-sm font-medium hover:text-white hover:bg-black'>Read List</li></Link>
     </>
 
     return (
