@@ -1,14 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Navbar = () => {
 
     const links = <>
-        <li className='m-2'>Home</li>
-        <li className='m-2'>About</li>
+        <Link to="/"><li className='m-2 cursor-pointer bg-amber-100 py-1 px-2
+        3 rounded-sm font-medium hover:text-white hover:bg-black'>Home</li></Link>
+        <Link to="/about"><li className='m-2 cursor-pointer bg-amber-100 py-1 px-2
+        3 rounded-sm font-medium hover:text-white hover:bg-black'>About</li></Link>
     </>
 
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -20,7 +23,7 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-xl">Boi Poka</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
