@@ -1,16 +1,7 @@
-# React + Vite
+Boi Poka — Your Digital Library for Unlimited Reading
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Boi Poka is a modern online reading platform designed to bring books to your fingertips. Whether you are a student, professional, or casual reader, Boi Poka provides seamless access to a vast collection of books across multiple genres, including fiction, non-fiction, academic, self-development, and more.
 
-Currently, two official plugins are available:
+With an intuitive interface and smart navigation, users can easily browse, search, and read their favorite books anytime, anywhere. Boi Poka emphasizes a smooth digital reading experience, allowing users to bookmark pages, highlight important sections, and organize their personal library efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Whether discovering new authors, revisiting classic literature, or studying for exams, Boi Poka makes reading accessible, engaging, and enjoyable for everyone.
